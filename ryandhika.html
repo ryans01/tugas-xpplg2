@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class murid {
+            nama = "cyon"
+            kelas = "PPLG2"
+            umur = "16"
+            tanggal_lahir = "12 januari 2007"
+        }
+        class muridPPLG extends murid {
+            jurusan = "RPL"
+            Lab = "Lab RPL"
+
+            ngoding(){
+                return "Sedang Membuat Program"
+            }
+
+        }
+
+        var murid1 = new muridPPLG();
+        document.write(murid1.nama + "<br />");
+        document.write(murid1.kelas + "<br />");
+        document.write(murid1.umur + "<br />");
+        document.write(murid1.tanggal_lahir + "<br />");
+        document.write(murid1.jurusan + "<br />");
+        document.write(murid1.lab + "<br />");
+        document.write(murid1.ngoding + "<br />");
+
+    </script>
+</body>
+</html>
